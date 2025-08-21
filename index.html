@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Basics: Selectors & Box Model</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1> CSS Basics</h1>
+    <p>Understanding Selectors and the Box Model</p>
+  </header>
+
+  <main>
+    
+    <section>
+      <h2> CSS Selectors</h2>
+      <p>Selectors are patterns used to target HTML elements so you can apply styles to them. Common types include:</p>
+      <ul>
+        <li><b>Element Selector</b> — targets all instances of an element (e.g. <code>p</code>)</li>
+        <li><b>ID Selector</b> — targets one unique element using <code>#id</code></li>
+        <li><b>Class Selector</b> — targets groups of elements using <code>.classname</code></li>
+        <li><b>Universal Selector</b> — targets everything using <code>*</code></li>
+       
+      </ul>
+
+      <h3>Example:</h3>
+      <pre>
+h1 { color: blue; }     /* Element selector */
+#title { color: red; }  /* ID selector */
+.note { color: green; } /* Class selector */
+      </pre>
+    </section>
+
+    <!-- Section: CSS Box Model -->
+    <section>
+      <h2>📦 The CSS Box Model</h2>
+      <p>The box model describes how every HTML element is treated as a box consisting of:</p>
+      <ul>
+        <li><b>Content</b> — The text or images inside the element.</li>
+        <li><b>Padding</b> — Space between the content and the border.</li>
+        <li><b>Border</b> — A line that surrounds the padding (or content if no padding).</li>
+        <li><b>Margin</b> — Space between the element and other elements.</li>
+      </ul>
+
+      <div class="box-model">
+        <div class="box">
+          
+    <h2>Inside the Box</h2>
+    <p>This text is inside the box. Notice the padding around it.</p>
+    <button>Click Me</button>
+  </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with html & CSS basics</p>
+  </footer>
+</body>
+</html>
